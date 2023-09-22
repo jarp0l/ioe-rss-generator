@@ -47,7 +47,9 @@ def prettify_data(data: list):
 
 
 def main():
-    URL = "https://exam.ioe.edu.np"
+    # URL = "https://exam.ioe.edu.np"
+    # temporary fallback to http
+    URL = "http://exam.ioe.edu.np"
     TITLE = "IOE Examination Control Division"
     DESCRIPTION = "Latest updates from Examination Control Division, IOE, TU"
 
